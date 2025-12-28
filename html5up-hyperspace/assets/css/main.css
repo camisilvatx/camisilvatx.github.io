@@ -197,10 +197,10 @@ input, select, textarea {
 		}
 
 			h1.major:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #002aff, #ff9500);
+				background-image: -webkit-linear-gradient(to right, #002aff, #ff9500);
+				background-image: -ms-linear-gradient(to right,  #002aff, #ff9500);
+				background-image: linear-gradient(to right, #002aff, #ff9500);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -1915,7 +1915,7 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			background-color: #ffffff;
-			color: #312450 !important;
+			color: #24504f !important;
 		}
 
 			input[type="submit"].primary:after,
@@ -2356,7 +2356,7 @@ input, select, textarea {
 
 		select option {
 			color: #ffffff;
-			background: #312450;
+			background: #244950;
 		}
 
 		select:focus::-ms-value {
@@ -2444,7 +2444,7 @@ input, select, textarea {
 		input[type="radio"]:checked + label:before {
 			background: #ffffff;
 			border-color: #ffffff;
-			color: #b74e91;
+			color: #4e86b7;
 			content: '\f00c';
 		}
 
@@ -2525,7 +2525,7 @@ input, select, textarea {
 			display: block;
 			background: #ffffff;
 			border-radius: 100%;
-			color: #312450;
+			color: #050564;
 			text-align: center;
 			line-height: 2.5em;
 			margin: 0 0 1.3em 0;
@@ -2536,27 +2536,27 @@ input, select, textarea {
 			}
 
 				.wrapper.style1 .icon.major:before {
-					color: #5e42a6;
+					color: #4268a6;
 				}
 
 				.wrapper.style1-alt .icon.major:before {
-					color: #493382;
+					color: #00010b;
 				}
 
 				.wrapper.style2 .icon.major:before {
-					color: #5052b5;
+					color: #131e36;
 				}
 
 				.wrapper.style2-alt .icon.major:before {
-					color: #3e4094;
+					color: #E0D9CF;
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #b74e91;
+					color: #8b4c00;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
-					color: #953d75;
+					color: #390024;
 				}
 
 /* Image */
@@ -3022,7 +3022,7 @@ input, select, textarea {
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
 				transition: opacity 1s ease;
-				background: rgba(49, 36, 80, 0.9);
+				background: rgba(36, 42, 80, 0.9);
 				content: '';
 				display: block;
 				height: 100%;
@@ -3236,31 +3236,40 @@ input, select, textarea {
 			}
 
 		.wrapper.alt {
-			background-color: #261c3e;
+			background-color: #573700;
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+		/* background-color: #15283f; */ /* remove or comment this out */
+		background-image: url('../../images/jwst.JPG'); /* path to your image */
+		background-size: cover;     /* make sure it fills the section */
+		background-position: center; /* center the image */
+		background-repeat: no-repeat; /* prevent tiling */
 		}
 
 		.wrapper.style1-alt {
-			background-color: #493382;
+			background-color: #10433d;
 		}
 
 		.wrapper.style2 {
-			background-color: #5052b5;
+			background-color: #0e1930;
 		}
 
 		.wrapper.style2-alt {
-			background-color: #3e4094;
+			background-color: #E0D9CF;
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color: #8b4c00;
+;
 		}
 
 		.wrapper.style3-alt {
-			background-color: #953d75;
+		/* background-color: #164241; */ /* remove or comment this out */
+		background-image: url('../../images/jwst3.JPG'); /* path to your image */
+		background-size: cover;     /* make sure it fills the section */
+		background-position: center; /* center the image */
+		background-repeat: no-repeat; /* prevent tiling */
 		}
 
 		.wrapper.fullscreen {
@@ -3370,7 +3379,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #5e42a6;
+		background-color: #171e3c;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
@@ -3524,7 +3533,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		background: #0f182e;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3761,14 +3770,14 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:before {
-				background: #3c2c62;
+				background: #0f182e;
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #002aff, #ff9500);
+				background-image: -webkit-linear-gradient(to right, #002aff, #ff9500);
+				background-image: -ms-linear-gradient(to right, #002aff, #ff9500);
+				background-image: linear-gradient(to right, #002aff, #ff9500);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3857,7 +3866,7 @@ input, select, textarea {
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #b74e91;
+							background-color: #2f5670;
 						}
 
 		}
@@ -3874,7 +3883,7 @@ input, select, textarea {
 
 	#intro {
 		background-attachment: fixed;
-		background-image: url("images/intro.svg");
+		/* background-image: url("images/intro.svg"); */
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
@@ -3906,4 +3915,32 @@ input, select, textarea {
 				background-attachment: scroll;
 			}
 
+		}
+				/* Custom profile image (intro section) */
+		.profile-pic {
+		width: 280px;
+		height: 280px;
+		border-radius: 50%;
+		object-fit: cover;
+		margin-bottom: 1.5em;
+		box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.25);
+		}
+
+		.wrapper.style2-alt {
+		color: #000000;
+		}
+
+		.wrapper.style2-alt h1,
+		.wrapper.style2-alt h2,
+		.wrapper.style2-alt h3,
+		.wrapper.style2-alt h4,
+		.wrapper.style2-alt h5,
+		.wrapper.style2-alt h6,
+		.wrapper.style2-alt strong,
+		.wrapper.style2-alt b {
+		color: #000000;
+		}
+
+		.wrapper.style2-alt hr {
+		border-bottom: 1px solid #000000;
 		}
